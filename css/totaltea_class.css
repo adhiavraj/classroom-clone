@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono:wght@500&display=swap");
+
+/* font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Lato", sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.class-name {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.class-name p:hover {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.class-images{
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+
+.total-class{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.all-class{
+  width: 40vw;
+  height: auto;
+  display: flex; 
+  justify-content: center;
+  flex-direction: column;
+  background: #333333;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 10px;
+
+}
+
+.image-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: inline-block;
+}
+
+.image-text{
+
+  position: relative;
+  color: white;
+}
+
+.image-text {
+  font-size: 20px;
+  position: relative;
+  bottom: 30px;
+  left: 10px;
+  /* padding: 10px; */
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.class-content{
+  width: 40vw;
+  min-height: 30vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background: #ddd;
+  width: max-content;
+  padding: 15px;
+  margin: 10px 10px;
+}

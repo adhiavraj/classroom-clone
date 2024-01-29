@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.class-name {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.class-name p:hover {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#page1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+}
+
+.c-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+  height: 90%;
+  width: 70%;
+  border: 2px solid #dadada;
+}
+
+.tmsg {
+    padding: 10px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+  display: flex;
+  height: max-content;
+  align-items: center;
+  width: 100%;
+}
+
+.msg {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  /* background: #888888b5; */
+}
+
+.pmsg {
+  color: black;
+}
+
+#page1 .classContent {
+
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  border: 2px solid #dadada;
+  border-radius: 5px;
+}
+
+.title {
+
+    padding: 10px;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+.title a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+
+
+
+
+/* Chat Gpt New CSS  */
+
+.c-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    height: 90%;
+    width: 70%;
+    border: 2px solid #dadada;
+    margin: auto; /* Center the div horizontally */
+}
+
+.tmsg {
+    padding: 10px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    height: max-content;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+}
+
+.msg {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: black; /* Change text color to black */
+}
+
+.pmsg {
+    color: black;
+}
+
+#page1 .classContent {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+}
+
+.title {
+    padding: 10px;
+    background: #fff;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.title a {
+    text-decoration: none;
+    list-style: none;
+    color: black; /* Change link color to black */
+}
+
+
+/* Add this CSS to your existing styles */
+.c-detail {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #3498db, #8e44ad);
+    background: linear-gradient(135deg, #f39c12, #e74c3c, #3498db);
+    background: linear-gradient(45deg, rgba(255, 191, 191, 0.5), rgba(191, 255, 191, 0.5), rgba(191, 191, 255, 0.5));
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5), rgba(0, 0, 255, 0.5)); /* Colorful gradient background with transparency */
+    background: linear-gradient(135deg, #54828e, #2893da);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    height: 90%;
+    width: 70%;
+    border: 2px solid #dadada;
+    margin: auto;
+}
+
+.tmsg {
+    padding: 10px;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    height: max-content;
+    align-items: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+}
+
+.msg {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: black;
+}
+
+.pmsg {
+    color: black;
+}
+
+#page1 .classContent {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    border: 2px solid #dadada;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+}
+
+.title {
+    padding: 10px;
+    background: #ffffff0a;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.title a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}

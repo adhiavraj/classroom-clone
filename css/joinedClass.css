@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background: linear-gradient(to bottom right, #7e8d9d, #40505a); */
+  min-height: 100vh;
+}
+
+.all-contents {
+  margin: 0;
+  padding: 0;
+}
+
+.class-name {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.class-name p:hover {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text {
+  padding: 15px;
+  font-size: 25px;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  padding: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.your-class-img {
+
+  border-radius: 5px;
+  width: 20vw;
+}
+.c-detail{
+  border: 2px solid #dadada;
+  width: fit-content;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  transition: box-shadow 0.3s;
+
+}
+.c-detail:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.vc-btn{
+  margin-top: 20px;
+}
+
+.allJoinClasses{
+  margin: 20px;
+  display: flex;
+  justify-content: flex-start;
+}

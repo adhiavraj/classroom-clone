@@ -1,0 +1,46 @@
+user -> regi -> login -> register (table) : email password
+
+1. if user -> create -> teacher -> teacher (table) : t_id email password
+
+2. if user -> join -> student -> students -> sid email password
+
+create -> 1.1 craateClass.php
+
+1.1 -> class details -> create -> func autognCode & class details (stored in a session var)
+
+                     -> insertClassInfo.php -> fetch t_id from teacher table
+                                            -> insert details into class table
+                                            -> Columns in class table: c_id(auto_incr) cname code  t_id
+                                            -> header: index page
+
+1.2 - Existing Class
+
+index -> existing class btn -> 1.2.1 totalTeacherClass.php
+
+                                     -> check teacher or not
+                                     -> if teacher -> fetch t_id
+                                     -> if t_id
+                                                -> fetch details from content table
+
+
+                                     -> content table Columns: t_id  c_id  link  title  t_msg
+
+                            -> totalTeacherClass 
+                            -> 1.2.2 View Class -> redirect to showClass.php - But How ?
+
+                            -> 1.2.2 View Class -> fetch c_id from class
+                                                -> input(hidden) -> value = c_id
+
+                            Columns in class: c_id  cname  code  t_id
+
+1.3 showClass.php
+
+totalTeacherClass -> c_id -> fetch from content -> details: t_msg,  title (of document),  link (of document)
+
+
+2.1 Student
+
+
+Join -> check -> student or not
+
+if student -> join.php 

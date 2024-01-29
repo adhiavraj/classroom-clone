@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Mono:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: black;
+}
+
+.class-name {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.class-name p:hover {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.create-div {
+  color: white;
+  background: linear-gradient(to bottom right, #d1d1d1, #737373);
+  background: linear-gradient(to bottom right, #999999, #444444);
+  background: #171717;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Lato", sans-serif;
+}
+
+.join-div {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Lato", sans-serif;
+  background: #28282b;
+  background: #93c572;
+  background: #6c9850;
+  background: #82a05f;
+  background: #cd2d55;
+  background: #c70039;
+  background: #b72430;
+}
+
+.create-h-txt { 
+  color: white;
+}
+
+.create-h-txt::selection { 
+  color: #171717;
+  background: white;
+}
+.join-h-txt::selection { 
+  color: #b72430;
+  background: white;
+}
+
+.create-p-txt {
+  color: rgba(255, 255, 255, 0.638);
+  font-weight: 500;
+  padding: 3px;
+  font-size: 17px;
+  word-wrap: break-word;
+}
+
+.create-p-txt::selection{
+  background: white;
+  color: black;
+  font-weight: 700;
+}
+.join-p-txt::selection{
+  background: white;
+  color: red;
+  font-weight: 700;
+}
+
+.join-p-txt {
+
+  font-weight: 500;
+  padding: 3px;
+  font-size: 17px;
+  word-wrap: break-word;
+}
+
+.create-btn {
+  font-weight: 600;
+  border: none;
+}
+.create-btn:hover {
+  font-weight: 600;
+}
+
+.join-btn {
+  font-weight: 600;
+  color: darkgreen;
+  border: none;
+}
+
+.home-class {
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+  width: 30vw;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.home-class:hover {
+  z-index: 2px;
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.4);
+}
+
+.my-foot {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 3px; */
+ 
+}
+
+.foot-txt{
+  margin: 0;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  color: lightgray;
+}
+
+
+@media (max-width: 991px) {
+  .class-container {
+    font-size: 45px;
+    /* height: auto; */
+    width: 120vw;
+  }
+}
+
+@media (max-width: 565px) {
+  .class-container {
+    height: auto;
+    width: 90vw;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    height: 100vh;
+  }
+  .class-container {
+    width: 40vw;
+    height: auto;
+  }
+
+  .class-container p {
+    font-size: 10px;
+  }
+  .class-container h3 {
+    font-size: large;
+  }
+}
+
+@media (max-width: 600px) {
+  .class-container {
+    width: 70vw;
+  }
+}
+
+.container-fluid .footer {
+  z-index: 1;
+}
+
+/* Navigation DropDown Managment */
+
+#dropdownMenuButton {
+  margin-left: 100px;
+}
+.dropdown-menu {
+  background-color: #bebebe;
+}
+
+.dropdown-menu .dropdown-item {
+  color: black;
+}
+
+.nav-txt {
+  display: flex;
+  direction: rtl;
+}
+
+
+/* responsive css for index */
+
+@media (max-width: 1000px) {
+
+  .create-div{
+    height: 100vh;
+    width: 40vw;
+  }
+  .join-div{
+    height: 100vh;
+    width: 40vw;
+  }
+
+}
+
+@media (max-width: 340px) {
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .dropdown{
+    align-items: right;
+  text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .create-p-txt{
+    font-size: 14px;
+  }
+  .join-p-txt{
+    
+    font-size: 14px;
+
+  }
+  .create-div{
+    height: max-content;
+    width: 60vw;
+  }
+  .join-div{
+    height: max-content;
+    width: 60vw;
+  }
+}
+
+
+
+
+
+
+/* Responsive Css   */
+
+
+@media (min-width: 800px) {
+  
+}

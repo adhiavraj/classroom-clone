@@ -1,0 +1,187 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: rgba(51, 51, 51, 0.874);
+    /* background: linear-gradient(to bottom right, #f8f9fa, #6c757d); */
+    background: linear-gradient(to bottom right, #cececebb, #6c757d);
+}
+
+.navbar{
+
+    width: 100%;
+}
+.cw a{
+    color: white;
+}
+
+
+.class-name {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+.class-name p:hover {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+/* For All Inputs  */
+
+.all{
+
+    padding: 3px 15px;
+    margin: 5px 10px; 
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: max-content;
+    /* background: grey; */
+    background: grey;
+    backdrop-filter: blur(20px);
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 0px 13px black; 
+    
+    
+}
+
+.all::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: rgba(255, 255, 255, 0.2);  */
+    background: rgba(38, 38, 38, 0.49); /* Adjust the color and opacity as needed */
+    backdrop-filter: blur(20px); /* Adjust the blur strength as needed */
+    z-index: -1;
+    border-radius: 7px;
+ 
+}
+
+
+/* .all::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(70px);
+    z-index: -1;
+    opacity: 0.5;
+} */
+
+.wrapper{
+
+    width: 60vw;
+    height: 10vh;
+    background: #fff;
+    padding: 20px;   
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+.wrapper .input-data{
+
+    height: auto;
+    width: 100%;
+    position: relative;
+    /* New */
+    /* margin-bottom: 15px; */
+}
+
+.wrapper .input-data input{
+    
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+    /* New */
+    padding-top: 15px; 
+}
+
+/* New */
+.wrapper .input-data input:focus {
+
+	/* New */
+    /* outline: none; Remove default focus outline */
+}
+
+.input-data input:focus ~ label{
+
+
+    transform: translateY(-17px);
+    color: #4158d0;
+    font-size: 15px;
+
+}
+
+.wrapper .input-data label{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    font-size: large;
+    transition: all 0.3s ease;
+}
+
+
+/* For the links - For Cancel and Create */
+
+.link-group{
+
+    display: flex;
+    justify-content: flex-end;
+
+}
+.link-group a{
+    margin-right: 15px;
+}
+.link-container{
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.cancel-btn a{
+
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.create-btn a{
+
+    text-decoration: none;
+    color: rgb(0, 234, 255);
+    cursor: pointer;
+
+}
+
+.heading{
+    color: white;
+}

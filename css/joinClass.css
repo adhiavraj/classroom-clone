@@ -1,0 +1,106 @@
+body {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #7e8d9d, #40505a);
+}
+
+.class-name{
+
+  margin: 0;
+  padding: 0;
+  color: white;
+
+}
+.class-name p:hover{
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 3px;
+  text-decoration: underline;
+  cursor: pointer;
+
+}
+
+.all-contents {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: max-content;
+  height: max-content;
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 20px 10px;
+}
+
+.wrapper {
+  width: 30vw;
+  height: auto;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .input-data {
+  height: auto;
+  width: 100%;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.wrapper .input-data input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+  padding-top: 10px;
+}
+
+.input-data input:focus ~ label {
+  transform: translateY(-30px);
+  color: #4158d0;
+  font-size: 15px;
+}
+
+.wrapper .input-data input:focus {
+  outline: none;
+}
+
+.wrapper .input-data input:not(:placeholder-shown) ~ label {
+  transform: translateY(-30px);
+  font-size: 15px;
+  color: #4158d0;
+}
+
+.wrapper .input-data label {
+  position: absolute;
+  bottom: 17px;
+  left: 0;
+  color: grey;
+  pointer-events: none;
+  font-size: large;
+  transition: all 0.3s ease;
+}
+
+.edit {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  width: 20vw;
+}
+
+.all-contents {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.all-contents:hover {
+  z-index: 2px;
+  box-shadow: 0 16px 22px rgba(0, 0, 0, 0.4);
+}
